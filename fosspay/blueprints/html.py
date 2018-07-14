@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template, abort, request, redirect, session, url_for, send_file, Response
-from flask.ext.login import current_user, login_user, logout_user
+from flask_login import current_user, login_user, logout_user
 from datetime import datetime, timedelta
 from fosspay.objects import *
 from fosspay.database import db
